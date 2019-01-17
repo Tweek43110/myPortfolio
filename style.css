@@ -1,4 +1,10 @@
 /* Globals */
+html, body { 
+  height:100%;
+  margin:0;
+  padding:0; 
+}
+
 h1, h2, h3, h4 {
   font-family: 'Sarabun', sans-serif;
   font-size: 1.75rem;
@@ -50,9 +56,8 @@ nav ul li a:hover {
 
 /* Banner Styling */
 #banner {
-  border: 3px solid black;
-  border-radius: 10px;
-  margin: 1.5em 0em 1.5em 0em;
+  margin: -15px 0em 1.5em 0em;
+  height: 100%;
   background-color: #484c51;
   color: white;
 }
