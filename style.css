@@ -1,59 +1,76 @@
-/* Global Styling */
-ul {
-    list-style-type:none;
-    padding-left: 0px;
-    margin:auto;
-    }
-
-img {
-    max-width: 100%;
-
-    height: auto;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+/* Globals */
+h1, h2, h3, h4 {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 15px;
 }
 
-/* Class Styling */
-.navText {
-    color:#e54927;
-    font-family: 'Poppins', sans-serif;
+p {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
 }
 
-.nav-link:hover {
-    color:white;
+/* Navigation Styles */
+nav {
+  background-color: slategray;
+  margin:
 }
 
-.logoText:hover{
-    color:#e54927;
-}
-        
-.logoText {
-    font-family: 'Permanent Marker', cursive;
-}
-        
-.altText {
-    color: #44E796;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* Responsive Font */
-.giantR {
-    font-size: 1.9vmax;
+nav ul li a {
+  color: white;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5em;
+}
+nav ul li a:hover {
+  color: black;
 }
 
-.bigR {
-    font-size: 1.75max;
+.flex-wrapper {
+  display: flex;
+  margin-top: 0px;
+  
+}
+.flex-left {
+  margin-right: auto;
+  padding: 15px;
+  margin-top: 0px;
 }
 
-.normalR {
-    font-size: 1.5vmax;
-} 
-
-.littleR {
-    font-size: 1.25max;
+.flex-right {
+  padding: 15px;  
 }
 
-.footR {
-    font-size: 1vmax;
+/* Banner Styling */
+#banner {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top: 1.5em;
+  background-color: #484c51;
+  color: white;
 }
 
-/* ID styling */
+/* Main Content */
+body {
+  background-color: #98a5ba;
+}
+
+#content {
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+
+/* Footer Styling */
+footer {
+  background-color: slategray;
+  margin: 0px 0px;
+  padding: 10px;
+}
