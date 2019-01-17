@@ -1,0 +1,59 @@
+/* Global Styling */
+ul {
+    list-style-type:none;
+    padding-left: 0px;
+    margin:auto;
+    }
+
+img {
+    max-width: 100%;
+
+    height: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+/* Class Styling */
+.navText {
+    color:#e54927;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color:white;
+}
+
+.logoText:hover{
+    color:#e54927;
+}
+        
+.logoText {
+    font-family: 'Permanent Marker', cursive;
+}
+        
+.altText {
+    color: #44E796;
+}
+
+/* Responsive Font */
+.giantR {
+    font-size: 1.9vmax;
+}
+
+.bigR {
+    font-size: 1.75max;
+}
+
+.normalR {
+    font-size: 1.5vmax;
+} 
+
+.littleR {
+    font-size: 1.25max;
+}
+
+.footR {
+    font-size: 1vmax;
+}
+
+/* ID styling */
