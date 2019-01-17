@@ -58,10 +58,6 @@ nav ul li a:hover {
 }
 
 /* Main Content */
-body {
-  background-color: #98a5ba;
-}
-
 #content {
   margin: auto;
   padding: 10px;
