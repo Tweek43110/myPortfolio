@@ -7,7 +7,7 @@ html, body {
 
 .big-heading {
   font-family: 'Sarabun', sans-serif;
-  font-size: 30px;
+  font-size: 12em;
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
@@ -15,7 +15,7 @@ html, body {
 
 .norm-heading {
   font-family: 'Sarabun', sans-serif;
-  font-size: 30px;
+  font-size: 4em;
   font-weight: bold;
   text-align: center;
   margin-top: 15px;
@@ -23,7 +23,7 @@ html, body {
 
 p {
   font-family: 'Sarabun', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ nav ul {
 nav ul li a {
   color: white;
   font-family: 'Staatliches', cursive;
-  font-size: 3em;
+  font-size: 5em;
 }
 nav ul li a:hover {
   color: black;
@@ -94,12 +94,14 @@ nav ul li a:hover {
 
 #banner-content h1{
   font-family: 'Sarabun', sans-serif;
-  font-size: 50px;
+  font-size: 5em;
   text-align: center;
 }
 
 #banner-content p{
-  font-size: 30px;
+  font-size: 3em;
+  width: 80%;
+  margin: auto;
 }
 
 /* About Content */
