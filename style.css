@@ -82,6 +82,8 @@ nav ul li a:hover {
   height: 100%;
   background-color: #484c51;
   background-image: url("./assets/westTex-xl.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: white;
   border-bottom: 15px solid black;
 }
