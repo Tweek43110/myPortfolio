@@ -27,6 +27,11 @@ p {
   text-align: center;
 }
 
+.responsive {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
 /* Navigation Styles */
 nav {
   background-color: slategray;
@@ -114,4 +119,11 @@ footer {
   background-color: slategray;
   margin: 0px 0px;
   padding: 10px;
+}
+
+/* Image */
+#profile {
+  display: block;
+  height: 150px;
+  border-radius: 50%;
 }
