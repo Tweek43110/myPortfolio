@@ -5,9 +5,18 @@ html, body {
   padding:0; 
 }
 
-h1, h2, h3, h4 {
+.big-heading {
   font-family: 'Sarabun', sans-serif;
-  font-size: 1.75rem;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.norm-heading {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
   text-align: center;
   margin-top: 15px;
 }
@@ -33,7 +42,7 @@ nav ul {
 nav ul li a {
   color: white;
   font-family: 'Staatliches', cursive;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 nav ul li a:hover {
   color: black;
@@ -54,20 +63,51 @@ nav ul li a:hover {
   padding: 15px;  
 }
 
+#dropdown {
+  color: white;
+}
+
 /* Banner Styling */
 #banner {
   margin: -15px 0em 1.5em 0em;
   height: 100%;
   background-color: #484c51;
+  /*background-image: url("./assets/westTex-xl.jpg");*/
   color: white;
 }
 
-/* Main Content */
-#content {
-  margin: auto;
-  padding: 10px;
-  color: white;
+#banner-content {
+  padding:40vh 0px;
 }
+
+#banner-content h1{
+  font-family: 'Sarabun', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#banner-content p{
+  font-size: 30px;
+}
+
+/* About Content */
+#about {
+  border-top: 15px solid black;
+  margin-top: -30px;
+  padding: 15px;
+}
+
+/* Portfolio Content */
+#portfolio {
+  background-color: #eff0f2;
+  padding:15px;
+}
+
+/* Contact Content */
+#contact {
+  padding: 15px;
+}
+
 
 /* Footer Styling */
 footer {

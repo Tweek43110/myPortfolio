@@ -3,46 +3,51 @@
 <head>
     <title>AC Web Design</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Staatliches|Sarabun" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Staatliches|Sarabun" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
     <nav id="nav">
         <ul class="flex-wrapper">
         <li class="flex-left"><a href="#">AC/WD</a></li>
-        <li class="flex-right"><a href="portfolio.html">Portfolio</a></li>
-        <li class="flex-right"><a href="about.html">About</a></li>
-        <li class="flex-right"><a href="contact.html">Contact</a></li>
+        <div class="flex-right"><i id="dropdown" class="fa-3x fas fa-bars"></i></div>
+        <!--<li id="nav1" class="flex-right"><a href="portfolio.html">Portfolio</a></li>
+        <li id="nav2" class="flex-right"><a href="about.html">About</a></li>
+        <li id="nav3" class="flex-right"><a href="contact.html">Contact</a></li>-->
         </ul>
     </nav>
 
     <div id="banner">
-        <h1>Alex Coe</h1>
-        <p>I'm a web designer &amp; front-end developer based in Texas, USA.<br>
-            I aim to create mobile-friendly, responsive and lightning fast web solutions.</p>
+        <div id="banner-content">
+            <h1>Hi, I'm Alex</h1>
+            <p>A web designer &amp; front-end developer based in Texas, USA.<br>
+                I aim to create mobile-friendly, responsive and lightning fast web solutions.</p>
+        </div>
     </div>
 
     <div id="about">
-            <p>I am a self taught front end web developer and designer making affordable and usable websites for small businesses</p>
-            <h1>What I do</h1>
+            <p class="description">I am a self taught front end web developer and designer making affordable and usable websites for small businesses.<br>This is what I do:</p>
+
         
-            <h2>Web Development</h2>
+            <h3 class="norm-heading">WEB DEVELOPMENT</h2>
                 <p>Custom built, responsive and mobile first websites for your brand or business. I work hand and hand with you to make the site exactly what you are looking for with handcrafted HTML, CSS and Javascript.</p>
         
-            <h3>Updates and Modifications</h3>
+            <h4 class="norm-heading">UPDATES AND MODIFICATIONS</h3>
                 <p>Advertising and taste are always changing. Sometimes your site needs a good visual refresh, content updated or optimization. I can help make your website more appealing to the eye, help your site appear more often in search engines and add the latest information on new and upcoming projects or products.</p>
         
-            <h4>Javascript Development</h4>
+            <h5 class="norm-heading">JAVASCRIPT DEVELOPMENT</h4>
                 <p>I can help make functional and efficient web API's for your business or existing program. Just reach out and let me know how I can help.</p>
             </div>
     </div>
 
     <div id="portfolio">
-            <h1>PORTFOLIO</h1>
+            <p class="norm-heading">PORTFOLIO</h1>
             <p>&lt; Work in progress &#47; &gt;</p>
+            <p></p>
     </div>
 
     <div id="contact">
-            <h1>CONTACT</h1>
+            <p class="norm-heading">CONTACT</p>
             <!--Gmaps embed-->
             <p>Phone: +1-614-592-0972</p>
             <p>email: alex.r.coe@gmail.com</p>
@@ -54,7 +59,7 @@
     </div>
 
     <footer>
-        <p>© 2018 arcdevelopment.com</p>
+        <p>© 2018 alexdevelops.com</p>
     </footer>
     <script rel="javascript" type="text/javascript" src="script.js"></script>
 </body>
