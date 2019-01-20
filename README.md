@@ -1,6 +1,6 @@
 # myPortfolio
 
-* A working development of my own personal website and portfolio *
+*A working development of my own personal website and portfolio*
 
 ## Goals
 As I progress in my web development skills, I will update this site as I have time. My main goals are:
