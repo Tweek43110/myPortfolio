@@ -45,7 +45,7 @@ nav ul li a {
   font-size: 3em;
 }
 nav ul li a:hover {
-  color: black;
+  color: #1990b7;
 }
 
 .flex-wrapper {
@@ -65,6 +65,9 @@ nav ul li a:hover {
 
 #dropdown {
   color: white;
+}
+#dropdown:hover {
+  color: #1990b7;
 }
 
 /* Banner Styling */
@@ -96,16 +99,21 @@ nav ul li a:hover {
   border-top: 15px solid black;
   margin-top: -30px;
   padding: 15px;
+  color: white;
+  background-color: #242728;
 }
 
 /* Portfolio Content */
 #portfolio {
-  background-color: #eff0f2;
+  color: white;
+  background-color: #1990b7;
   padding:15px;
 }
 
 /* Contact Content */
 #contact {
+  color: white;
+  background-color: #242728;
   padding: 15px;
 }
 
