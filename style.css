@@ -32,7 +32,7 @@ p {
   max-width: 100%;
 }
 i {
-  padding-right: 15px;
+  margin-right: 25px;
 }
 
 /* Navigation Styles */
@@ -103,9 +103,12 @@ nav ul li a:hover {
 }
 
 /* About Content */
-#about {
+#about-wrapper{
   border-top: 15px solid black;
   margin-top: -30px;
+}
+
+#about {
   padding: 15px;
   color: #242728;
   background-color: white;
@@ -137,4 +140,11 @@ footer {
   color: white;
   margin: 0px 0px;
   padding: 10px;
+}
+
+@media only screen and (min-width: 900px) and (max-width:1920px){
+#about,#portfolio,#contact {
+  margin: auto;
+  width: 60%;
+}
 }
