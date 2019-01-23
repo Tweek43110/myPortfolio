@@ -1,3 +1,10 @@
+@media only screen and (min-width: 900px) and (max-width:1920px) {
+#about,#portfolio,#contact {
+  margin: auto;
+  width: 60%;
+}
+}
+
 /* Globals */
 html, body {
   height:100%;
@@ -36,6 +43,10 @@ i {
 }
 
 /* Navigation Styles */
+.logo {
+    width: 70px;
+}
+
 nav {
   background-color: #242728;
   margin: auto;
@@ -120,14 +131,14 @@ nav ul li a:hover {
 }
 
 /* Portfolio Content */
-#portfolio {
+#portfolio-wrapper {
   color: white;
   background-color: #1990b7;
   padding:15px;
 }
 
 /* Contact Content */
-#contact {
+#contact-wrapper {
   color: white;
   background-color: #242728;
   padding: 15px;
@@ -140,11 +151,4 @@ footer {
   color: white;
   margin: 0px 0px;
   padding: 10px;
-}
-
-@media only screen and (min-width: 900px) and (max-width:1920px){
-#about,#portfolio,#contact {
-  margin: auto;
-  width: 60%;
-}
 }
