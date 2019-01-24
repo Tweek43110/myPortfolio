@@ -95,9 +95,9 @@ nav ul li a:hover {
 #banner {
   margin: -15px 0em 1.5em 0em;
   height: 95vh;
-  background-color: #1990b7;
+  background-color: #3ccfcf;
   /*background-image: url("./assets/westTex-xl.jpg");*/
-  color: white;
+  color: #242728;
 }
 
 #banner-content {
@@ -134,18 +134,18 @@ nav ul li a:hover {
 
 /* Portfolio Content */
 #portfolio-wrapper {
-  color: white;
-  background-color: #1990b7;
+  color: #242728;
+  background-color: #3ccfcf;
   padding:15px;
 }
 
 #portfolio a {
-  color: white;
+  color: #242728;
   text-decoration: none;
 }
 
 #portfolio a:visited {
-  color: white;
+  color: #242728;
 }
 
 /* Contact Content */
@@ -156,12 +156,12 @@ nav ul li a:hover {
 }
 
 #contact a {
-  color: white;
+  color: #3ccfcf;
   text-decoration: none;
 }
 
 #contact a:visited {
-  color: white;
+  color: #3ccfcf;
 }
 
 /* Footer Styling */
@@ -203,6 +203,9 @@ footer {
 }
 
 @media screen and (min-width:1025px) and (max-width: 1920px) {
+  i {
+    margin-right: 0px;
+  }
   #about,#portfolio,#contact {
     margin: auto;
     width: 60%;
