@@ -12,8 +12,16 @@
 <body>
     <nav id="nav">
         <ul class="flex-wrapper">
-        <li class="flex-left"><img src="./assets/logo.svg" alt="site logo" class="logo"></li>
-        <div class="flex-right"><i id="dropdown" class="fa-3x fas fa-bars"></i>
+        <a href="#"><img src="./assets/logo.svg" alt="site logo"
+           class="logo flex-left"></a>
+        <div class="flex-right">
+          <a href="#portfolio" class="flex-right">Portfolio</a>
+          <a href="#about" class="flex-right">About</a>
+          <a href="#contact" class="flex-right">Contact</a>
+          <a href="javascript:void(0);" class="dropdown"
+          onclick="dropFunction()">
+            <i id="dropdown" class="fa-2x fas fa-bars"></i>
+          </a>
         </div>
         </ul>
     </nav>
