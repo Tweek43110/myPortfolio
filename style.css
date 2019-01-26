@@ -71,8 +71,9 @@ nav ul li a:hover {
 .flex-wrapper {
   display: flex;
   margin-top: 0px;
-
+  align-items: center;
 }
+
 .flex-left {
   margin-right: auto;
   padding: 15px;
@@ -191,7 +192,6 @@ footer {
     float:left;
     text-align: left;
   }
-}
 
 @media screen and (min-device-width:600px) and (max-device-width: 1024px) {
   i {
@@ -205,10 +205,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .flex-content {
-    flex-direction: row;
+  .flex-item {
+    flex-basis: 60%
   }
 }
 
@@ -236,7 +237,7 @@ footer {
   .flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .flex-item {
